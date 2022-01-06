@@ -1,0 +1,411 @@
+.header {
+    height: 60px;
+    background-color: #373A3C;
+    max-width: 1400px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1070px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.header__logo {
+    display: flex;
+}
+
+.header-menu {
+    display: flex;
+}
+
+.header-menu__item {
+    color: #FFFFFF80;
+    font-size: 16px;
+    margin-left: 40px;
+}
+
+.header-menu__item_active {
+    color: white;
+}
+
+.header-menu__user {
+    margin-left: 3px;
+}
+
+/*========== Start main====================*/
+
+.slider {
+    height: 644px;
+    background: url(../img/Star-Wars-Battlefront-II-combat.jpg);
+    max-width: 1400px;
+}
+
+.slider__text-star-wars {
+
+    font-size: 36px;
+    color: white;
+    padding-left: 70%;
+    padding-top: 20%;
+}
+
+.slider__text-battlefront-II {
+    font-size: 24px;
+    color: white;
+    padding-left: 70%;
+    padding-bottom: 10px;
+}
+
+.slider__left-right-btns {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.slider__button-trailer {
+    height: 38px;
+    width: 125px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    margin-left: 61%;
+    background: #8DD83D;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.slider__button-explore {
+    height: 38px;
+    width: 148px;
+    border-radius: 4px;
+    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+    font-size: 16px;
+    line-height: 21px;
+    color: white;
+    cursor: pointer;
+}
+
+.slider__points {
+    margin-left: 50%;
+    margin-top: 15%;
+}
+
+
+/*section===================================================================*/
+
+
+.the-best-value {
+    height: 100%;
+    max-width: 1400px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    background: radial-gradient(100% 100% at 50% 0%, #686C6F 0%, #373A3C 100%);
+}
+
+.the-best-value__logo {
+    margin-left: 50%;
+    padding-top: 60px;
+
+}
+
+.the-best-value__text-1 {
+    margin-left: 42%;
+    margin-top: 30px;
+    font-size: 48px;
+    color: white;
+}
+
+.the-best-value__text-2 {
+    margin-left: 38%;
+    margin-bottom: 70px;
+    font-size: 36px;
+    color: white;
+}
+
+.the-best-value__cards {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1300px;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+
+.card {
+    /* display: flex; */
+    height: 420px;
+    width: 320px;
+    background-color: white;
+    border: 1px solid #8DD83D;
+    margin-left: 20px;
+}
+
+.the-best-value__card-picture {
+    width: 320px;
+}
+
+.card-text {
+    padding: 20px;
+}
+
+.card-text p {
+    font-size: 24px;
+}
+
+.cards-button {
+    height: 60px;
+    width: 278px;
+    left: 0px;
+    top: 0px;
+    border-radius: 4px;
+    background-color: #8DD83D;
+    margin: 20px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+.the-best-value__card-2-image {
+    padding: 55px;
+    background-color: #FAFAFA;
+    margin-bottom: 10px;
+}
+
+.the-best-value__card-3-image {
+    padding: 55px;
+    background-color: #FAFAFA;
+    height: 70px;
+}
+
+/*section exclusive-games ===========================================================*/
+
+.exclusive-games {
+    height: 880px;
+    max-width: 1400px;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/Exclusive_games.png);
+    overflow: hidden;
+}
+
+.exclusive-games__text {
+    font-size: 36px;
+    font-family: Arial, sans-serif;
+    line-height: 42px;
+    color: white;
+    margin-left: 34%;
+    margin-bottom: 50px;
+    padding-top: 70px;
+
+}
+
+.exclusive-games__icons-prev-next {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    justify-content: space-between;
+}
+
+.exclusive-games__icon-prev {
+    cursor: pointer;
+}
+
+.exclusive-games__icon-next {
+    cursor: pointer;
+}
+
+.slider-cards {
+    height: 420px;
+    width: 320px;
+    border: 2 px solid white;
+    margin: 50px auto;
+
+}
+
+.slider-cards-line {
+    height: 420px;
+    width: 1280px;
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+
+.exclusive-games__card-picture {
+    width: 100%;
+    height: 180px;
+}
+
+.exclusive-games__button {
+    margin-left: 43%;
+    width: 207px;
+    height: 53px;
+    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+    border-radius: 4px;
+    font-size: 21px;
+    color: white;
+    cursor: pointer;
+}
+
+
+/*section xbox-design-lab ===========================================================*/
+
+
+.xbox-design-lab {
+    height: 480px;
+    max-width: 1400px;
+    background: url(../img/xbox-design-lab_img.png);
+}
+
+.xbox-design-lab__text {
+    margin-left: 12%;
+    margin-bottom: 3%;
+    padding-top: 10%;
+
+}
+
+.xbox-design-lab__text h2 {
+    font-size: 48px;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.xbox-design-lab__text p {
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.xbox-design-lab__btn-left {
+    width: 207px;
+    height: 60px;
+    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+    border-radius: 4px;
+    font-size: 16px;
+    color: white;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    margin-left: 12%;
+    margin-right: 15px;
+}
+
+.xbox-design-lab__btn-right {
+    width: 278px;
+    height: 60px;
+    background: #8DD83D;
+    border-radius: 4px;
+    font-size: 16px;
+    color: white;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+}
+
+/*footer ==================================================*/
+
+.footer {
+    height: 395px;
+    max-width: 1400px;
+    background: #373A3C;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer__container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer__columns {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer h2 {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #7DD42F;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.footer__columns-XBOX ul li {
+    padding-top: 20px;
+}
+
+.footer__columns-developers ul li {
+    padding-top: 20px;
+}
+
+.footer__columns-follow-us a {
+    margin-top: 20px;
+    padding-right: 20px;
+}
+
+hr {
+    border: 1px solid white;
+    width: 100%;
+    margin-top: 85px;
+    opacity: 0.35;
+}
+
+.footer p {
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+}
+
+.footer__last-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 1070px) {
+    .header-menu {
+        display: none;
+    }
+}
+
+@media (max-width:1024px) {
+    .card {
+        max-width: 250px;
+        margin-bottom: 10px;
+    }
+
+    .the-best-value__card-picture {
+        max-width: 250px;
+    }
+
+    .the-best-value__card-2-image img {
+        max-width: 250px;
+    }
+
+    .the-best-value__card-3-image img {
+        max-width: 250px;
+    }
+
+    .cards-button {
+        width: 210px;
+    }
+
+    .card-text p {
+        font-size: 18px;
+    }
+
+    .the-best-value__text-1 {
+        margin-left: 30%;
+    }
+
+    .the-best-value__text-2 {
+        margin-left: 30%;
+    }
+
+}
